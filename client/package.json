@@ -1,7 +1,7 @@
 {
 	"name": "lsp-sample-client",
 	"description": "VSCode part of a language server",
-	"author": "Nathaniel Mejia",
+	"author": "Nathaniel Mejia & Rishaan Desai",
 	"license": "MIT",
 	"version": "0.0.1",
 	"publisher": "vscode",

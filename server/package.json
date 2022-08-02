@@ -2,7 +2,7 @@
 	"name": "carbon-server",
 	"description": "Example implementation a carbon server",
 	"version": "1.0.0",
-	"author": "Nathaniel Mejia",
+	"author": "Nathaniel Mejia & Rishaan Desai",
 	"license": "MIT",
 	"engines": {
 		"node": "*"

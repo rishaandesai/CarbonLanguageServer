@@ -1,14 +1,14 @@
 {
 	"name": "carbon-server",
 	"description": "A Carbon Language Server TEST",
-	"author": "Nathaniel Mejia",
+	"author": "Nathaniel Mejia & Rishaan Desai",
 	"license": "MIT",
 	"version": "1.0.0",
 	"repository": {
 		"type": "git",
 		"url": "https://github.com/carbon-language/carbon-lang"
 	},
-	"publisher": "Nathaniel Mejia",
+	"publisher": "Nathaniel Mejia & Rishaan Desai",
 	"categories": [],
 	"keywords": [
 		"multi-root ready"
@@ -43,6 +43,9 @@
 					"description": "Traces the communication between VS Code and the language server."
 				}
 			}
+		},
+		"capabilities": {
+			"hoverProvider": "true"
 		}
 	},
 	"scripts": {

@@ -1,0 +1,1 @@
+The files in this folder are used for testing Intellisense in other languages.
