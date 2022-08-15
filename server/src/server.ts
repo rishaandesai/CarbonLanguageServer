@@ -15,7 +15,11 @@ import {
 	TextDocumentPositionParams,
 	TextDocumentSyncKind,
 	InitializeResult,
-	VersionedTextDocumentIdentifier
+	VersionedTextDocumentIdentifier,
+	MarkupKind,
+	Hover,
+	Range,
+	Position
 } from 'vscode-languageserver/node';
 
 import {
@@ -187,6 +191,7 @@ connection.onDidChangeWatchedFiles(_change => {
 	// Monitored files have change in VSCode
 	connection.console.log('We received an file change event');
 });
+
 
 // This handler provides the initial list of the completion items.
 connection.onCompletion(
@@ -611,6 +616,8 @@ connection.onCompletionResolve(
 		return item;
 	}
 );
+
+	
 
 // Make the text document manager listen on the connection
 // for open, change and close text document events
